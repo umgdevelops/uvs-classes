@@ -1,0 +1,37 @@
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 255,0.5), rgb(255, 255, 255,0.7)),
+                  url("http://localhost/FinalTutions/imgs/adDesk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-content{
+    border:2px solid rebeccapurple ;
+}
+.ulButtons{
+    list-style-type: none;
+    margin: 5px;
+}
+.lead{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#colButtons{
+    border:2px solid rebeccapurple ;
+}
+li .nav-buttons{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.buttons{
+    background: rebeccapurple;
+    border-radius:10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+.buttons:hover{
+    opacity:1;
+}

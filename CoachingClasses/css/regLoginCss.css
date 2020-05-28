@@ -1,0 +1,38 @@
+body{
+    padding-top: 130px; /* 96 navbar + 34*/
+    background-color: white;
+    font-size: 16px;
+}
+.containerForm{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 24px;
+}
+.containInner{
+    padding: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#headTag{
+    background-color: blueviolet;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 9px;
+}
+#headTag h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input{
+    height: 100%;
+    width: 100%;
+}
+.containInner label{
+    margin: 0;
+}
+#subTag{
+    margin: 10px;
+}
+#subTag a{
+    color : rebeccapurple;
+}

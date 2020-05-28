@@ -1,0 +1,132 @@
+/* ------------ body---------- */
+body{
+    padding-top: 130px; /* 96 navbar + 34*/
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+}
+
+/* --------- navbar --------- */
+.navbar{
+    background-color:white;
+}
+.navbar a{
+    color : rebeccapurple;
+    font-size: 18px;
+}
+p#heading{
+    color:rebeccapurple;
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+/*-------------- carousel section ------------*/
+.card{
+    border: 0;
+    border-radius:0;
+    background-color: inherit;
+}
+.card-text{
+    font-size: 1.0rem;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* padding-top: 15px; */
+}
+.carouselColumn1{
+    background-color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#mainCarousel{
+    padding-right: 0;
+    padding-left: 0;
+}
+.col-4{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*----------  text-mosaic  ----------*/
+
+.text-mosaic{
+    font-size: 1.0rem;
+    padding: 50px;
+    color: black;
+}
+@media (max-width: 1000px){
+    .text-mosaic h2{
+        font-size: 0.85rem;
+    }
+    .text-mosaic p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 700px){
+    .text-mosaic h2{
+        font-size: 0.75rem;
+    }
+    .text-mosaic p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 950px){
+    #mosaicSection{
+        display: none;
+    }
+}
+
+/* --------------- MOSAIC - TO - CARD ------------ */
+#mosaicToCard{
+    /* background-color: green; */
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#mosaicToCard img{
+    padding: 0;
+}
+#mosaicToCard .card-body{
+    text-align: center;
+}
+#mosaicToCard .cardWrite{
+    padding: 20px;
+    /* align-items: center; */
+}
+@media (min-width: 950px){
+    #mosaicToCard{
+        display: none;
+    }
+}
+@media (max-width: 950px){
+    #mosaicToCard .card-text{
+        font-size: 1.0rem;
+    }
+}
+@media (max-width: 250px){
+    #mosaicToCard .cardWrite h3{
+        font-size: 1.3rem;
+    }
+    .cardWrite p{
+        display: none;
+    }
+}
+
+/* -----------------CONTACT ME MAP----------------- */
+/* div.col.enquiryForm{
+    margin-top:auto;
+    margin-bottom:auto;
+} */
+
+/* ---------- BOTTOM NAVIGATIONS SOCIALS---------- */
+.socialNav{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    opacity:1;
+    color: rebeccapurple;
+
+}
+.socialNav a:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,40 @@
+@media  (min-width:576px){
+    .carousel-item{
+        height: 360px;
+        background-color: brown;
+    }
+    .carousel img{
+        height: inherit;
+        object-fit: cover;
+    }
+}
+@media  (min-width:720px){
+    .carousel-item{
+        height: 480px;
+        background-color: brown;
+    }
+    .carousel img{
+        height: inherit;
+        object-fit: fill;
+    }
+}
+@media  (min-width:992px){
+    .carousel-item{
+        height: 500px;
+        background-color: brown;
+    }
+    .carousel img{
+        height: inherit;
+        object-fit: fill;
+    }
+}
+@media  (min-width:1300px){
+    .carousel-item{
+        height: 550px;
+        background-color: brown;
+    }
+    .carousel img{
+        height: inherit;
+        object-fit: fill;
+    }
+}
